@@ -1,38 +1,239 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+body{
+  overflow-x: hidden;
+  font-family: 'Roboto', sans-serif;
+}
+/* 
+.mail-form{
+  margin-top: 28px;
+} */
+
+.address-field{
+  margin-top: -30px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.image-form{
+  width: 140%
+}
+
+.image-form-1{
+  width: 130%;
+  margin-left: 100px;
+}
+
+.image-form-2{
+  width: 134%;
+  margin-left: 178px;
+}
+
+.portraight-label{
+  margin-left: 104px;
+}
+
+.square-label{
+  margin-left: 180px;
+}
+
+.text-area-field{
+  height: 18vh;
+}
+
+.buttons{
+  float: right;
+}
+
+.btn-1{
+  border: 1px solid gray;
+  width: 10%;
+}
+
+.text-heading{
+  font-size: 15px;
+  margin-left: 20px;
+  margin-top: 14px;
+}
+
+.my-table{
+
+  margin-top: 80px;
+}
+
+.dougnhut-chart{
+  margin-top: 80px;
+}
+
+.doughnut-card{
+  height: 57vh;
+}
+
+.my-toggle{
+  float: right;
+}
+
+.card-data{
+  height: 57vh;
+}
+
+.chart-doughnut{
+  width: 56%;
+  min-height: 450px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.create-ad-card{
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 4px;
+  height: 67vh;
+}
+
+.card-body img{
+  height: 45vh;
+}
+
+.text-center{
+  font-size: 15px;
+}
+
+.create-ads-card-header{
+  border-bottom: none;
+  background-color: #fff;
+}
+
+.card-data .card-header{
+  border-bottom: 1px solid rgba(0,0,0,.125);
+  background-color: #fff;
+}
+
+.dougnhut-chart .card-header{
+  border-bottom: 1px solid rgba(0,0,0,.125);
+  background-color: #fff;
+}
+
+.dougnhut-chart .card-header select{
+  float: right;
+}
+
+.alert-message{
+  width: 20%;
+  padding: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;
+}
+
+/* .p-text{
+  font-size: 15px;
+} */
+
+
+.WQNxq {
+    position: relative;
+    width: 100%;
+    border-radius: inherit;
+    overflow-x: auto;
+    overflow-y: auto !important;
+    height: 43vh;
+}
+
+.bottom-card-header{
+    width: 114%;
+    margin-left: -20px;
+    border-bottom: none;
+}
+
+.text-color{
+  color:#adb5bd;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 900px) {
+  .chart-doughnut{
+    width: 87%; 
+    min-height: 450px;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .text-header h5{
+    text-align: center;
   }
-  to {
-    transform: rotate(360deg);
+
+  .alert-message{
+    width: 40%;
+    /* padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px; */
   }
+
+  .btn-1{
+    width: 30%;
+  }
+
+  .form-fill{
+    display: flex;
+  flex-wrap: wrap;                         
+  }
+  .image-form {
+    width: 101%;
 }
+.image-form-1 {
+  width: 101%;
+  margin-left: 2px;
+}
+.image-form-2 {
+  width: 101%;
+  margin-left: 2px;
+}
+.portraight-label {
+  margin-left: 3px;
+}
+.square-label {
+  margin-left: 2px;
+}
+.address-field {
+  margin-top: 39px
+}
+.create-ad-card {
+  margin-top: 30px;
+}
+.create-ad-card{
+  width: 78%;
+  height: 67vh;
+}
+.p-text{
+  font-size: 12px;
+}
+.text-center{
+  font-size: 12px;
+}
+.bottom-card-header{
+  width: 118%;
+}
+.card-body img{
+  height: 44vh;
+}
+.WQNxq {
+ 
+  height: 39vh;
+}
+
+}
+
+
+

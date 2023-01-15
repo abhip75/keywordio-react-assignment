@@ -1,0 +1,52 @@
+[
+	{
+		"campaigns": "Cosmetics",
+		"clicks": "712",
+		"cost": "USD 4,272",
+		"conversions": "8",
+        "revenue": "USD 16568"
+	},
+	{
+		"campaigns": "Serums",
+		"clicks": "3961",
+		"cost": "USD 27331",
+		"conversions": "115",
+        "revenue": "USD 362526"
+	},
+	{
+		"campaigns": "Facewash",
+		"clicks": "9462",
+		"cost": "USD 76831",
+		"conversions": "123",
+        "revenue": "USD 76831"
+	},
+	{
+		"campaigns": "Shampoos",
+		"clicks": "439",
+		"cost": "USD 2151",
+		"conversions": "5",
+        "revenue": "USD 11029"
+	},
+	{
+		"campaigns": "Conditioners",
+		"clicks": "1680",
+		"cost": "USD 3864",
+		"conversions": "49",
+        "revenue": "USD 175245"
+	},
+	{
+		"campaigns": "Facewash 2",
+		"clicks": "4978",
+		"cost": "USD 29370",
+		"conversions": "189",
+        "revenue": "USD 623106"
+	},
+	{
+		"campaigns": "Total",
+		"clicks": "26510",
+		"cost": "USD 143819",
+		"conversions": "489",
+        "revenue": "USD 15,73,563"
+	}
+	
+]
